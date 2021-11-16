@@ -1,0 +1,99 @@
+<!-- Cabeçalho - Início -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Loucademia - Mude de Vidas</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/Loucademia_Logotipo.png">
+			<nav>
+				<div>
+					<a href="novoAluno.html">Novo Aluno</a><br>
+					<a href="pesquisaDeAluno.html">Pesquisa Aluno</a><br>
+					<a href="controleDeAcesso.html">Controle de Acesso</a><br>
+					<a href="relatoriosDeEntradaSaida.html">Relatório de Entrada e Saída</a><br>
+					<a href="relatoriosDeSituacoes.html">Relatório de Situações</a><br>
+					
+				</div>
+			</nav>
+		</header>
+		<!-- Cabeçalho - Fim -->
+		<h1>Relatório de Situações</h1>		
+		<div id="infoMessage">
+			(Aqui vai a mensagem de sistema de "sucesso" ou "erro")					
+		</div>	
+		<br>
+		<form>
+			<fieldset>
+				<legend>Situação</legend>
+				<label for="situacao">Situação</label><br>
+				<select name="situacao" id="situacao">
+					<option>Ativo</option>
+					<option>Inativo</option>
+					<option>Com pendência</option>
+				</select>			
+			</fieldset>
+			<br>			
+			<input type="submit" value="Gerar Relatório">		
+		</form>
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Situação</th>
+				<th>Celular</th>
+				<th>Fixo</th>
+				<th>Ações</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Demetrius Tobias</td>
+				<td>Com Pendência</td>
+				<td>(35)9-1111-2222</td>
+				<td>(35)9-1111-2222</td>
+				<td>
+					<input type="button" value="Editar">					
+				</td>			
+			</tr>
+			
+			<tr>
+				<td>002</td>
+				<td>Marisa A. Tobias</td>
+				<td>Ativo</td>
+				<td>(35)9-1111-2222</td>
+				<td>(35)9-1111-2222</td>
+				<td>
+					<input type="button" value="Editar">					
+			</tr>		
+			
+			<tr>
+				<td>003</td>
+				<td>Ian Abreu Tobias</td>
+				<td>Inativo</td>
+				<td>(35)9-1111-2222</td>
+				<td>(35)9-1111-2222</td>
+				<td>
+					<input type="button" value="Editar">
+				</td>			
+			</tr>		
+			
+			<tr>
+				<td>004</td>
+				<td>Camila T. Tobias</td>
+				<td>Inativa</td>
+				<td>003.004.005-03</td>
+				<td>(35)9-1111-2222</td>				
+				<td>
+					<input type="button" value="Editar">
+				</td>			
+			</tr>		
+		</table>			
+		<br>
+		
+		<!-- Rodapé - Início -->
+
+	</body>
+</html>
+<!-- Rodapé - Início -->
